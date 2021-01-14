@@ -231,11 +231,13 @@ input[type="radio"]{
     height: 30px;
     border-radius: 50%;
     background-color:#ccc;
+    line-height: 30px;
+    text-align: center;
 }
 input[type="radio"]:checked + .alpha:After{
-    background:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMGMtNi42MjcgMC0xMiA1LjM3My0xMiAxMnM1LjM3MyAxMiAxMiAxMiAxMi01LjM3MyAxMi0xMi01LjM3My0xMi0xMi0xMnptLTEgMTdsLTUtNS4yOTkgMS4zOTktMS40MyAzLjU3NCAzLjczNiA2LjU3Mi03LjAwNyAxLjQ1NSAxLjQwMy04IDguNTk3eiIvPjwvc3ZnPg==');
-    background-size: cover;
-    background-position: center;
+    content: '\2714';
+    background: #ce1b28;
+    color: #fff;
 }
 /* checkbox */
 .checkbox{
